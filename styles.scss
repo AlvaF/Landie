@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1130px;
+    padding: 0 10px;
+}
+
+header {
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+            ul {
+                display: flex;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #505F98;
+                    }
+                }
+            }
+        }
+
+        button {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            color: #FFFFFF;
+            background: #111B47;
+            border-radius: 2px;
+        }
+    }
+
+    .introduce {
+        h1 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 66px;
+            letter-spacing: 1px;
+            color: #091133;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #505F98;
+        }
+
+        div {
+            .left {
+                cursor: pointer;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #FFFFFF;
+                background: #111B47;
+                border-radius: 2px;
+            }
+
+            .right {
+                cursor: pointer;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #091133;
+                border-radius: 2px;
+                background: transparent;
+            }
+        }
+    }
+}
